@@ -1,25 +1,23 @@
 import java.util.Scanner;
+
 class Main {
   public static void main(String[] args) {
     Scanner in = new Scanner(System.in);
-    System.out.println("Enter the amount of rows you want and press enter:");
-
-    int rows=in.nextInt();
-    for (int i = 1; i <= rows; i++) {
-      for (int j = 0; j < i; j++) {
-        System.out.print("*");
-      }
-      System.out.println("");
-
-    }
-    System.out.println("now for the pyramid!");
     System.out.println("enter number of rows and smash that enter key:");
-    int pyramidScheme=in.nextInt();
-    int stars=pyramidScheme;
-    while(pyramidScheme>0){
-      for (int )
-    }
+    int rows = in.nextInt();
+    int stars = rows;
+    int count = 0;
+    while (rows > 0) {
+      for (int m = 1; m <= count; m++) {
+        System.out.println("");
+      }
+      for (int k = 1; k <= (2 * x) - 1; k++) {
+        System.out.println("*");
+      }
+
+      count++;
+
+      rows--;
     }
   }
-
 }
