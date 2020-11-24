@@ -15,7 +15,7 @@ class Main {
       }
 
       count++;
-
+      System.out.println();
       rows--;
     }
   }
