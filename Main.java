@@ -12,6 +12,14 @@ class Main {
       System.out.println("");
 
     }
+    System.out.println("now for the pyramid!");
+    System.out.println("enter number of rows and smash that enter key:");
+    int pyramidScheme=in.nextInt();
+    int stars=pyramidScheme;
+    while(pyramidScheme>0){
+      for (int )
+    }
+    }
   }
 
 }
